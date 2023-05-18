@@ -1,0 +1,86 @@
+﻿[
+    {
+        "sku": "TP614EL1AHUOLLPE",
+        "name": "Kit Teclado Gamer - Base de Celular",
+        "price": "100",
+        "offer": "100",
+        "image": "CARGADOR ACER.jpg"
+    },
+    {
+        "sku": "LE060EL0HR4G9LPE",
+        "name": "Caddy para Laptops",
+        "price": "20",
+        "offer": "18",
+        "image": "CADDY2.jpg"
+    },
+    {
+        "sku": "EP057EL128KOULPE",
+        "name": "Impresora Multifuncional",
+        "price": "550",
+        "offer": "600",
+        "image": "IMPRESORA-CANON-G4100.jpg"
+    },
+    {
+        "sku": "OE991EL0U4PXVLPE",
+        "name": "Cpu Marca Dell Corei5",
+        "price": "500",
+        "offer": "450",
+        "image": "CPU DELL I5.jpg"
+    },
+    {
+        "sku": "XP799EL166UO8LPE",
+        "name": "Monitor Led Samsung",
+        "price": "900",
+        "offer": "800",
+        "image": "MONITOR SAMSUNG.jpg"
+    },
+    {
+        "sku": "XP764EL0DGME1LPE",
+        "name": "Kit Estudiante",
+        "price": "200",
+        "offer": "120",
+        "image": "TECLADO LOGITECH.jpg"
+    },
+    {
+        "sku": "XP764EL0C62E9LPE",
+        "name": "Parlantes Discotekeros",
+        "price": "350",
+        "offer": "300",
+        "image": "PARLANTES MICRONICS USB.jpg"
+    },
+    {
+        "sku": "XI061EL17ND2HLPE",
+        "name": "Porta Tablet Original",
+        "price": "489",
+        "offer": "350",
+        "image": "PORTA TABLET.jpg"
+    },
+    {
+        "sku": "UB801EL1K9UCVLPE",
+        "name": "Silla Gamer Blazze Pro Con Masajeador Lumbar - Naranja",
+        "price": "999",
+        "offer": "0.62",
+        "image": "UB801EL1K9UCVLPE.webp"
+    },
+    {
+        "sku": "XI061EL07IPJILPE",
+        "name": "Xiaomi Camara Web Full Hd 1080p 30fps Con Microfono Imilab",
+        "price": "220",
+        "offer": "0.50",
+        "image": "XI061EL07IPJILPE.webp"
+    },
+    {
+        "sku": "VS653EL1LQW0VLPE",
+        "name": "Audífonos Gamer Kuiper Vsg Multiplataforma Ps4 Xbox Pc-Negro",
+        "price": "199",
+        "offer": "0.50",
+        "image": "VS653EL1LQW0VLPE.webp"
+    },
+    {
+        "sku": "VI068EL0G65WJLPE",
+        "name": "Monitor ViewSonic 19 VA1903H LED TN HD",
+        "price": "480",
+        "offer": "0.37",
+        "image": "VI068EL0G65WJLPE.webp"
+    }
+]

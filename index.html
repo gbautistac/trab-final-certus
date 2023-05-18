@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Agregar hoja de Estilo -->
+
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- <link rel="stylesheet" href="estilo.css"> -->
+   <!--  <link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
+<!-- Estilo de Iconos Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+    <title>Catalogo productos - TripleHash</title>
+</head>
+
+<body>
+
+     <!-- WhatsApp iniciar convsersación -->
+     <a id="chatWhatsApp" target="_blank" href="https://wa.me/51931238457?text=Hola%20quiero%20comprar%20ya!">
+        <img src="img/recursos/WhatsApp.svg" alt="Iniciar convsersación por WhatsApp">
+    </a>
+
+    <div id="container-app">
+        <header class="text-center bg-dark text-dark p-3">
+        <h1>:..TripleHash..:</h1>
+        <h2>Seguridad, calidad y garantía</h2>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-black bg-green">
+            <div class="container justify-content-center"> <!-- Añade la clase justify-content-center aquí -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="About.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item me-auto">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-success" type="button" data-bs-toggle="modal"
+                                data-bs-target="#ventanaCarrito">*Carrito*</button> 
+                               
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+
+        <br>
+        <!-- Notificación -->
+        <p> Venta de Productos de Catálogo Mayo 2023</p> <!-- Parrafo -->
+        <!-- <p><a href="contacto.html" target="_self">contacto</a></p> -->
+        </br>
+
+        <!-- Parte Princpal -->
+        <main>
+            <!-- Sección de Catalogo -->
+            <section id="Catalogo" class="container container-products">
+
+            </section>
+        </main>
+        </nav>
+
+        <!--VENTANA DE CARRITO-->
+       
+        <div id="ventanaCarrito" class="modal fade" tabindex="-1">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Carrito</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                   
+                    <div class="modal-body">
+                        <div id="container-cart" style="overflow: auto;max-height: 100px;"></div>
+                        <div id="container-foot-cart"></div>
+  <!-- agregar imagen de carro vacio -->
+                        <picture>
+                            <img id="imageCarritoVacio" class="img-fluid mx-auto d-block" src="img/recursos/carrito-vacio.jpg" alt="Carrito Vacio">
+                        </picture>
+                        <p class="text-center">Actualmente usted no cuenta con ningún producto.</p>
+                    </div>    
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                            onclick="resetCart()">Limpiar</button>
+                               
+
+                    <!--  dando clic al boton finalizarcompra nos lleva a una NUEVA pagina  -->
+
+                    <a target="_blank" <button href="finalizarcompra.html" type="button" class="btn btn-primary">Finalizar compra</button></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--Aqui se ejecutan las instrucciones JavaScript-->
+         <!-- Cargando funciones de Boostrap-->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- JavaScript personalizado-->
+        <script src="js/custom.js"></script>
+
+<div class="piepag">
+<footer> ..: © 2023 Copyright ::: Gustavo Bautista ::: Gracias por su Visita :.. </footer>
+</div>
+
+</body>
+
+</html>
